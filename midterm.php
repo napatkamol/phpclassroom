@@ -52,13 +52,13 @@ foreach($data as $key=>$val){
     echo "<td bgcolor='#FFFAF0'>"; 
     echo $val->province;
     echo "</td>";
-    echo "<td bgcolor='#98FB98'>"; 
+    echo "<td bgcolor='#7FFFD4'>"; 
     echo $val->new_case;
     echo "</td>";
-    echo "<td bgcolor='#7FFFD4'>"; 
+    echo "<td bgcolor='#66CDAA'>"; 
     echo $val->total_case;
     echo "</td>";
-    echo "<td bgcolor='#66CDAA'>"; 
+    echo "<td bgcolor='#FAF0E6'>"; 
     echo $val->new_case_excludeabroad;
     echo "</td>";
     echo "<td bgcolor='#FAEBD7'>"; 
